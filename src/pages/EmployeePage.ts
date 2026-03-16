@@ -67,12 +67,13 @@ export class EmployeePage extends BasePage {
         // wait for dropdown options and click the one that matches
         const option = this.page.locator('.oxd-autocomplete-dropdown [role="option"]', { hasText: fullName });
         await option.click();
+        await this.page.waitForTimeout(3000) // Wait for selection to register
 
         // now perform the search
         await this.clickElement(this.searchButton)
 
         // wait for network activity to finish
-        await this.page.waitForLoadState('networkidle')
+        await this.page.waitForLoadState('domcontentloaded')
 
         // verify the row appears (full name is shown on the row)
         await expect(this.page.getByText(fullName)).toBeVisible()

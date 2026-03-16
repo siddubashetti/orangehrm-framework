@@ -45,8 +45,14 @@ test.describe.serial('OrangeHRM Employee Management', () => {
         await login.navigateToLoginPage();
         await login.login('Admin', 'admin123');
 
+        await page.waitForURL(/dashboard/)          // ← wait for dashboard!
+        await page.waitForLoadState('domcontentloaded')
+
+
         // Navigate to employee page
         await employee.navigateToEmployeePage();
+
+        await page.waitForURL(/viewEmployeeList/)   // ← wait for employee page!
 
         // Search for the employee by full name (autocomplete requires both parts)
         await employee.searchEmployee(fullName);
