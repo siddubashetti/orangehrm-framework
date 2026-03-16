@@ -1,0 +1,69 @@
+Status: 200
+Body: {
+  "data": [
+    {
+      "id": 8,
+      "name": "CAN - Bereavement",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 7,
+      "name": "CAN - FMLA",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 10,
+      "name": "CAN - Matternity",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 9,
+      "name": "CAN - Personal",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 6,
+      "name": "CAN - Vacation",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 3,
+      "name": "US - Bereavement",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 2,
+      "name": "US - FMLA",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 5,
+      "name": "US - Matternity",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 4,
+      "name": "US - Personal",
+      "deleted": false,
+      "situational": false
+    },
+    {
+      "id": 1,
+      "name": "US - Vacation",
+      "deleted": false,
+      "situational": false
+    }
+  ],
+  "meta": {
+    "total": 10
+  },
+  "rels": []
+}
