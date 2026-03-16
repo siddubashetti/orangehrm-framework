@@ -43,6 +43,7 @@ export class EmployeePage extends BasePage {
 
         // Click Save button
         await this.clickElement(this.saveButton)
+        await this.page.waitForTimeout(2000) // Wait for save to complete
     }
 
     /**

@@ -25,23 +25,17 @@ test.describe.serial('OrangeHRM Employee Management', () => {
     });
 
     test('should add a new employee', async ({ page }) => {
-        const login = new LoginPage(page);
-        const employee = new EmployeePage(page);
+        const login = new LoginPage(page)
+        const employee = new EmployeePage(page)
 
-        // Login first
-        await login.navigateToLoginPage();
-        await login.login('Admin', 'admin123');
+        await login.navigateToLoginPage()
+        await login.login('Admin', 'admin123')
+        await page.waitForURL(/dashboard/)
+        await employee.navigateToEmployeePage()
+        await employee.addEmployee(firstName, lastName)
 
-        // Navigate to employee page
-        await employee.navigateToEmployeePage();
 
-        // Add a new employee
-        await employee.addEmployee(firstName, lastName);
-        await page.waitForTimeout(3000) // Wait for save to complete
-
-        // Verify success message or redirect (optional - depends on UI)
-        await page.waitForLoadState('networkidle');
-    });
+    })
 
     test('should search for an employee', async ({ page }) => {
         const login = new LoginPage(page);

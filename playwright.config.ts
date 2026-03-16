@@ -37,8 +37,8 @@ export default defineConfig({
     navigationTimeout: 60000,
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
-    headless: true,
-    //headless: false,
+    //headless: true,
+    headless: false,
     trace: 'on',
   },
 
