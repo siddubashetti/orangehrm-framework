@@ -1,0 +1,13 @@
+Status: 422
+Body: {
+  "error": {
+    "status": "422",
+    "message": "Invalid Parameter",
+    "data": {
+      "invalidParamKeys": [
+        "fromDate",
+        "toDate"
+      ]
+    }
+  }
+}

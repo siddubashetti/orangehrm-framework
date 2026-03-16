@@ -1,0 +1,183 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Recruitment" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e48]: Recruitment
+            - listitem [ref=e49]:
+              - link "My Info" [ref=e50] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e56]: My Info
+            - listitem [ref=e57]:
+              - link "Performance" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e66]: Performance
+            - listitem [ref=e67]:
+              - link "Dashboard" [ref=e68] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e71]: Dashboard
+            - listitem [ref=e72]:
+              - link "Directory" [ref=e73] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e76]: Directory
+            - listitem [ref=e77]:
+              - link "Maintenance" [ref=e78] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e82]: Maintenance
+            - listitem [ref=e83]:
+              - link "Claim" [ref=e84] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e87]
+                - generic [ref=e91]: Claim
+            - listitem [ref=e92]:
+              - link "Buzz" [ref=e93] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e96]: Buzz
+    - banner [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=e101]
+        - link "Upgrade" [ref=e103]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e104] [cursor=pointer]: Upgrade
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - generic [ref=e112] [cursor=pointer]:
+              - img "profile picture" [ref=e113]
+              - paragraph [ref=e114]: Ramana Sekar
+              - generic [ref=e115]: 
+      - navigation "Topbar Menu" [ref=e117]:
+        - list [ref=e118]:
+          - button "" [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 
+  - generic [ref=e122]:
+    - generic [ref=e124]:
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: 
+          - paragraph [ref=e130]: My Actions
+        - separator [ref=e131]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - button [ref=e135] [cursor=pointer]
+            - paragraph [ref=e141] [cursor=pointer]: (1) Pending Self Review
+          - generic [ref=e142]:
+            - button [ref=e143] [cursor=pointer]
+            - paragraph [ref=e152] [cursor=pointer]: (1) Candidate to Interview
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - generic [ref=e157]: 
+          - paragraph [ref=e158]: Quick Launch
+        - separator [ref=e159]
+        - generic [ref=e161]:
+          - img "No Content" [ref=e162]
+          - paragraph [ref=e163]: Not Available
+      - generic [ref=e165]:
+        - generic [ref=e167]:
+          - generic [ref=e168]: 
+          - paragraph [ref=e169]: Buzz Latest Posts
+        - separator [ref=e170]
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174] [cursor=pointer]:
+              - img "profile picture" [ref=e176]
+              - generic [ref=e177]:
+                - paragraph [ref=e178]: Ramana ko Sekar
+                - paragraph [ref=e179]: 2026-12-03 12:29 PM
+            - separator [ref=e180]
+            - paragraph [ref=e181]: Automation testing post
+          - generic [ref=e182]:
+            - generic [ref=e183] [cursor=pointer]:
+              - img "profile picture" [ref=e185]
+              - generic [ref=e186]:
+                - paragraph [ref=e187]: Ramana ko Sekar
+                - paragraph [ref=e188]: 2026-12-03 12:27 PM
+            - separator [ref=e189]
+            - paragraph [ref=e190]: hi
+          - generic [ref=e191]:
+            - generic [ref=e192] [cursor=pointer]:
+              - img "profile picture" [ref=e194]
+              - generic [ref=e195]:
+                - paragraph [ref=e196]: Ramana ko Sekar
+                - paragraph [ref=e197]: 2026-12-03 11:43 AM
+            - separator [ref=e198]
+            - paragraph [ref=e199]: hiiiiiiiiiiiiiiiiiiiiiiii
+          - generic [ref=e200]:
+            - generic [ref=e201] [cursor=pointer]:
+              - img "profile picture" [ref=e203]
+              - generic [ref=e204]:
+                - paragraph [ref=e205]: Ramana ko Sekar
+                - paragraph [ref=e206]: 2026-12-03 11:43 AM
+            - separator [ref=e207]
+            - paragraph [ref=e208]: hiiiiiiiiiiiiiiiiiiiiiiii
+          - generic [ref=e209]:
+            - generic [ref=e210] [cursor=pointer]:
+              - img "profile picture" [ref=e212]
+              - generic [ref=e213]:
+                - paragraph [ref=e214]: Ramana ko Sekar
+                - paragraph [ref=e215]: 2026-12-03 11:41 AM
+            - separator [ref=e216]
+            - img [ref=e217]
+      - generic [ref=e219]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: 
+          - paragraph [ref=e223]: Employee Distribution by Sub Unit
+        - separator [ref=e224]
+        - list [ref=e229]:
+          - listitem [ref=e230] [cursor=pointer]:
+            - generic "Engineering" [ref=e232]
+          - listitem [ref=e233] [cursor=pointer]:
+            - generic "Human Resources" [ref=e235]
+          - listitem [ref=e236] [cursor=pointer]:
+            - generic "Administration" [ref=e238]
+          - listitem [ref=e239] [cursor=pointer]:
+            - generic "Client Services" [ref=e241]
+          - listitem [ref=e242] [cursor=pointer]:
+            - generic "Unassigned" [ref=e244]
+      - generic [ref=e246]:
+        - generic [ref=e248]:
+          - generic [ref=e249]: 
+          - paragraph [ref=e250]: Employee Distribution by Location
+        - separator [ref=e251]
+        - list [ref=e256]:
+          - listitem [ref=e257] [cursor=pointer]:
+            - generic "Texas R&D" [ref=e259]
+          - listitem [ref=e260] [cursor=pointer]:
+            - generic "New York Sales Office" [ref=e262]
+          - listitem [ref=e263] [cursor=pointer]:
+            - generic "Unassigned" [ref=e265]
+    - generic [ref=e266]:
+      - paragraph [ref=e267]: OrangeHRM OS 5.8
+      - paragraph [ref=e268]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e269] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
