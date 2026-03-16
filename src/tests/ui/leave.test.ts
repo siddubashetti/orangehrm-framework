@@ -18,7 +18,9 @@ test.describe.serial('OrangeHRM Leave module', () => {
 
         await login.navigateToLoginPage();
         await login.login(USERNAME, PASSWORD);
+        await page.waitForURL(/dashboard/)
 
+        //Navigate to leave page
         await leave.navigateToLeavePage();
         await expect(page).toHaveURL(/leave\/viewLeaveList/);
     });
@@ -29,6 +31,7 @@ test.describe.serial('OrangeHRM Leave module', () => {
 
         await login.navigateToLoginPage();
         await login.login(USERNAME, PASSWORD);
+        await page.waitForURL(/dashboard/);
 
         await leave.navigateToLeavePage();
         await expect(page).toHaveURL(/viewLeaveList/);

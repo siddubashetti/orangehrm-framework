@@ -14,10 +14,10 @@ test.describe.serial('OrangeHRM Employee Management', () => {
         // Login first
         await login.navigateToLoginPage();
         await login.login('Admin', 'admin123');
+        await page.waitForURL(/dashboard/)
 
         // Navigate to employee page
         await employee.navigateToEmployeePage();
-
         await page.waitForTimeout(2000);
 
         // Verify we're on the correct page
@@ -37,6 +37,7 @@ test.describe.serial('OrangeHRM Employee Management', () => {
 
         // Add a new employee
         await employee.addEmployee(firstName, lastName);
+        await page.waitForTimeout(3000) // Wait for save to complete
 
         // Verify success message or redirect (optional - depends on UI)
         await page.waitForLoadState('networkidle');
@@ -58,7 +59,7 @@ test.describe.serial('OrangeHRM Employee Management', () => {
         await page.waitForTimeout(2000) // Wait for search results to load
 
         // verify results found
-        await expect(page.getByText('Record(s) Found')).toBeVisible()
+        await expect(page.getByText('(1) Record Found')).toBeVisible()
 
 
     });

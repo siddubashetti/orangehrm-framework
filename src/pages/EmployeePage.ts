@@ -65,7 +65,7 @@ export class EmployeePage extends BasePage {
 
         // wait for dropdown options and click the one that matches
         const option = this.page.locator('.oxd-autocomplete-dropdown [role="option"]', { hasText: fullName });
-        await option.first().click();
+        await option.click();
 
         // now perform the search
         await this.clickElement(this.searchButton)
